@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MiniProject.AutomationReport"/>
+  </listeners>
+  <test thread-count="5" name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="MiniProject.Main">
+        <methods>
+          <include name="launchWebsite"/>
+          <include name="guestsAndRooms"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- MiniProject.Main -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

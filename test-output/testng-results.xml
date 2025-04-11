@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-01T11:54:59 IST" name="Suite" finished-at="2025-04-01T11:56:01 IST" duration-ms="61805">
+    <groups>
+    </groups>
+    <test started-at="2025-04-01T11:54:59 IST" name="chrometest" finished-at="2025-04-01T11:55:32 IST" duration-ms="32638">
+      <class name="MiniProject.Main">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:00 IST" name="driverSetup" finished-at="2025-04-01T11:55:06 IST" duration-ms="6728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="launchWebsite()[pri:1, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:06 IST" name="launchWebsite" finished-at="2025-04-01T11:55:10 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method signature="guestsAndRooms()[pri:2, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:10 IST" name="guestsAndRooms" finished-at="2025-04-01T11:55:11 IST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestsAndRooms -->
+        <test-method signature="searchCity()[pri:3, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:11 IST" name="searchCity" finished-at="2025-04-01T11:55:14 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCity -->
+        <test-method signature="checkInOut()[pri:4, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:14 IST" name="checkInOut" finished-at="2025-04-01T11:55:15 IST" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInOut -->
+        <test-method signature="search()[pri:5, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:15 IST" name="search" finished-at="2025-04-01T11:55:18 IST" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="sortBy()[pri:6, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:18 IST" name="sortBy" finished-at="2025-04-01T11:55:22 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortBy -->
+        <test-method signature="verifyHotelDetails()[pri:7, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:22 IST" name="verifyHotelDetails" finished-at="2025-04-01T11:55:27 IST" duration-ms="4844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelDetails -->
+        <test-method signature="readExcelData()[pri:8, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:27 IST" name="readExcelData" finished-at="2025-04-01T11:55:27 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelData -->
+        <test-method signature="quitBrowser()[pri:9, instance:MiniProject.Main@28701274]" started-at="2025-04-01T11:55:27 IST" name="quitBrowser" finished-at="2025-04-01T11:55:32 IST" duration-ms="4773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- MiniProject.Main -->
+    </test> <!-- chrometest -->
+    <test started-at="2025-04-01T11:55:32 IST" name="edgetest" finished-at="2025-04-01T11:56:01 IST" duration-ms="28733">
+      <class name="MiniProject.Main">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:32 IST" name="driverSetup" finished-at="2025-04-01T11:55:38 IST" duration-ms="5318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="launchWebsite()[pri:1, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:38 IST" name="launchWebsite" finished-at="2025-04-01T11:55:41 IST" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method signature="guestsAndRooms()[pri:2, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:41 IST" name="guestsAndRooms" finished-at="2025-04-01T11:55:42 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestsAndRooms -->
+        <test-method signature="searchCity()[pri:3, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:42 IST" name="searchCity" finished-at="2025-04-01T11:55:45 IST" duration-ms="3592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCity -->
+        <test-method signature="checkInOut()[pri:4, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:45 IST" name="checkInOut" finished-at="2025-04-01T11:55:47 IST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInOut -->
+        <test-method signature="search()[pri:5, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:47 IST" name="search" finished-at="2025-04-01T11:55:50 IST" duration-ms="2681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="sortBy()[pri:6, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:50 IST" name="sortBy" finished-at="2025-04-01T11:55:53 IST" duration-ms="3166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortBy -->
+        <test-method signature="verifyHotelDetails()[pri:7, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:53 IST" name="verifyHotelDetails" finished-at="2025-04-01T11:55:56 IST" duration-ms="2883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelDetails -->
+        <test-method signature="readExcelData()[pri:8, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:56 IST" name="readExcelData" finished-at="2025-04-01T11:55:56 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelData -->
+        <test-method signature="quitBrowser()[pri:9, instance:MiniProject.Main@9d5509a]" started-at="2025-04-01T11:55:56 IST" name="quitBrowser" finished-at="2025-04-01T11:56:01 IST" duration-ms="4895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- MiniProject.Main -->
+    </test> <!-- edgetest -->
+  </suite> <!-- Suite -->
+</testng-results>
